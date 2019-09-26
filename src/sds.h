@@ -56,6 +56,7 @@ struct sdshdr {
     int free;
 
     // 数据空间
+    // 关于这个结构体的大小计算: https://yisaer.github.io/2017/05/07/Redis1/
     char buf[];
 };
 
